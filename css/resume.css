@@ -3,20 +3,10 @@ html {
 }
 
 body{
-  background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
-  url(../img/black_background_wood-t3.jpg) repeat center center fixed !important;
+  background: url(../img/blank_paper.jpg) repeat center center fixed !important; 
   background-size: 100% auto !important;
   background-repeat: repeat !important;
   font-family: Serif, Helvetica, Courier;
-}
-
-.navbar-default  .navbar-collapse{
-  background-color: #FFFFFF;
-  color: #FFFFFF;  
-}
-
-.navbar-default .navbar-nav > li > a {
-  color: #000000;
 }
 
 .body-container {
@@ -35,7 +25,7 @@ body{
     background: rgba(0, 0, 0, 0.3);
     padding: 0;
 	background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
-	url(../img/binary.jpg) repeat center center fixed !important;
+	url(../img/resume.jpg) repeat center center fixed !important;
 	background-size: auto 100%!important;
 	background-repeat: no-repeat !important;	
 }
@@ -62,114 +52,75 @@ body{
   vertical-align: middle;
 }
 
-.about {
-	background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
-	url(../img/me.jpg) repeat center center fixed !important;
-	background-size: auto 100%!important;
-	background-repeat: repeat !important;	
-}
-
-.about h1 {
+.body h1 {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: bold;
     margin-top: 75px;
-    color: #FFFFFF;
+    color: #000000;
     text-align: center;
 }
 
-.about p {
+.body h2 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #000000;
+	margin-left: 10%;
+}
+
+.body p {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     margin-top: 25px;
-    color: #FFFFFF;
+    color: #000000;
     text-align: center;
     margin-left: 50px;
     margin-right: 50px;
-    padding-bottom: 5%;
+    padding-bottom: 2%;
 }
 
-.toggle_skills {
-  display: block;
-  position: relative;
-  margin: 0 auto;
-  text-align: center;
-} 
-
-.skills-list {
-    color: #FFF;
-    list-style: none;
-    text-align: center;
-    /* font-size: 2em; */
-    margin-top: 0%;
+.body ul {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #000000;
+    margin-left: 15%;
+    padding-bottom: 2%;
 }
 
-.skills-list li {
-    display: list-item;
-	text-align: center;
-    padding: 10px;
+.info table {
+
+}
+
+table.info {
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+table#info {
+    width:100%; 
+    margin-left:0%; 
+    margin-right:0%;
+}
+
+.info p {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: bold;
-}
-  
-.work-header {
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-weight: bold;
 	margin-top: 10px;
-	color: #FFFFFF;
-	text-align: center;
-	padding-bottom: 0px;
-}
-  
-img {
-    display: block;
-    margin: 0 auto;
-    margin-top: 3%;
-    width: 50%;
-    height: 50%;
+    color: #000000;
+    margin-left: 2.5%;
 }
 
-.work h1 {
+.info ul {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-weight: bold;
-    margin-top: 10px;
-    color: #FFFFFF;
-    text-align: center;
-    padding-bottom: 0px;
+    color: #000000;
+    margin-left: 5%;
+    padding-bottom: 2%;
 } 
-  
- .life h1 {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-weight: bold;
-    margin-top: 10px;
-    color: #FFFFFF;
-    text-align: center;
-    padding-bottom: 0px;
-}
-
-.bot-p {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	margin-top: 5px;
-    text-align: center;
-	color: #FFFFFF;
-    margin-left: 50px;
-    margin-right: 50px;
-    line-height: 2em;
-    padding-bottom: 5px;
-}  
-  
-.saying-p {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	margin-top: 5px;
-    text-align: center;
-	color: #FFFFFF;
-    margin-left: 50px;
-    margin-right: 50px;
-    line-height: 2em;
-    padding-bottom: 5px;
-}
 
 .footer {
   bottom: 0;
   width: 100%;
-  background-color: #f5f5f5;
+  background-color: #000000;
+}
+
+.footer i{
+	color: #FFFFFF
 }
 
 .bottom-footer {
@@ -180,6 +131,7 @@ img {
     padding-top: 10px;
     padding-left: 0;
     float: left;
+
 }
 
 .bottom-footer li {
